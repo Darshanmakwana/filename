@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+</body>
+<!--create 1 array,in the array
+take 10 fruits 
+-apple,banana,chery,mango,kiwi,orange,watermalen,papaya,grape,apicort
+remove kiwi and add avocado and
+output should be in order.-->
+  <script>
+  let fruits= ["apple", "banana", "chery", "mango", "kiwi"];
+  let fruits2= ["orange", "watermalen", "papaya", "grape", "apicort"];
+  
+
+  document.getElementById("demo").innerHTML=fruits+","+fruits2;
+  
+  fruits.pop("");
+  fruits2.push("avocado");
+  fruits+"+"+fruits2.sort();
+  
+  document.getElementById("demo2").innerHTML=fruits+","+fruits2;
+  
+  
+  
+  
+
+
+  </script>
+
+</html>
