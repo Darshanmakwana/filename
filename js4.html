@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+<!--Take One String In Variable
+one is mobile number
+one is pan card number
+one is age
+
+now generate Password ,Password Should be 
+First 4 letter of your Name +
+Last 4 letter of your mobile number+
+3rd and 4th index of pan card number+
+your age-->
+<script>
+    
+    let name="darshan";
+    let mobile="9494095101";
+    let pancard="GAVPM4216H";
+    let age="21";
+    
+document.getElementById("demo").innerHTML=name.slice(0,4)+""+mobile.slice(6,11)+""+pancard.slice(3,5)+""+age;
+
+
+
+
+
+
+</script>
+</html>
